@@ -118,12 +118,13 @@ int main()
     }
 
     sort(v);
-    cout<<"The smallest value: "<<v[0]<<"\n";
-    cout<<"The largest vallue: "<<v[-1]<<"\n";
+    cout<<"The smallest value: "<<v.front()<<"\n";
+    cout<<"The largest vallue: "<<v.back()<<"\n";
     for(int i =0; i<v.size();i++)
     {
         sum=sum+v[i];
     }
+    
     cout<<"The sum of all the lengths: "<<sum<<"\n";
     for(int i =0; i<v.size();i++)
     {
