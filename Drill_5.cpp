@@ -2,7 +2,6 @@
 
 int main()
 try {
-        /*
         cout << "Success!\n"; //Cout << "Success!\n"; lover case cout
         cout << "Success!\n"; //cout << "Success!\n;  Ending '"'
         cout << "Success" << "!\n"; //Secound starter '"' and line ending ';'
@@ -23,11 +22,10 @@ try {
         string s6 = "Success!\n"; cout << s6; //Unneseserry complications (for is unneded)
         vector<int> v5(5); for (int i=0; i<=v5.size(); ++i) ; cout << "Success!\n"; // vector type unidentified
         int i=0; int j = 9; while (i<10) ++i; if (j<i) cout << "Success!\n"; // Infinite loop, condition unchanged (i did not grow)
-        */
         int x2 = 2; double d = 5/(x2 - 1); if (d==5*x2*0.5) cout << "Success!\n"; // Divide by 0
         string s7 = "Success!\n"; for (int i=0; i<10; ++i) cout << s7[i]; //Unneeded type declaration, too long range
         int i=0; int j=9; while (i<10) ++i; if (j<i) cout << "Success!\n";  //Overwrite
-        int x3 = 4; double d2 = 5/(x3–2); if (d2!=2*x3+0.5) cout << "Success!\n"; // Overwrite        
+        int x3 = 4; double d2 = 5/(x3-2); if (d2!=2*x3+0.5) cout << "Success!\n"; // Overwrite        
         cout << "Success!\n"; //Cin switch to cout
         keep_window_open(); 
         return 0;
