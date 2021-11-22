@@ -58,11 +58,10 @@ namespace Calendar{
 
 	class Date 		//Dátum összeállítása, constuctors
 	{
-	public:
 		Year year;
 		Month month;
 		int day;
-	
+	public:
 		class Invalid {};
 		Date(): year(Year{2001}), month(Month::jan), day(1) {}
 		Date(Year y, Month m, int d): year(y), month(m), day(d) { if (!is_valid()) throw Invalid {}; }
@@ -123,15 +122,13 @@ try{
 
 	Calendar::Date today (Calendar::Year{1978}, Calendar::Month::june, 25);
 	
-	
-	
-	Calendar::Date tomorrow {today.year, today.month, today.day};
+	Calendar::Date tomorrow {today.get_year(), today.get_month(), today.get_day()};
 	
 	cout << "Date: "<< today<< "\n";
 
 	tomorrow.add_day(1);
 
-	cout << "Entered date: " << today << "\n";
+	cout << "Tomorrow's date: " << tomorrow << "\n";
 
     
     return 0;
