@@ -49,45 +49,45 @@ int main()
     print(cx,cy);
     */
     /*
-    swap_v(7.7,9.9); //The double format ill be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
+    swap_v(7.7,9.9); //The double format will be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
 				//Can not bind non-const value reference
     print(cx,cy);
     */
     /*
-    swap_r(7.7,9.9); //The double format ill be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
+    swap_r(7.7,9.9); //The double format will be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
 				//Can not bind non-const value reference
     print(cx,cy);
     */
     /*
-    swap_cr(7.7,9.9); //The double format ill be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
+    swap_cr(7.7,9.9); //The double format will be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
 				//Can not bind non-const value reference
     print(cx,cy);
     */
     /*
     double dx = 7.7;
     double dy = 9.9;
-    swap_v(dx,dy); //The double format ill be put into an int so information will be lost
+    swap_v(dx,dy); //The double format will be put into an int so information will be lost
     print(dx,dy);
     
-    swap_r(dx,dy); //The double format ill be put into an int so information will be lost
+    swap_r(dx,dy); //The double format will be put into an int so information will be lost
     print(dx,dy);
     */
     /*
-    swap_cr(dx,dy); //The double format ill be put into an int so information will be lost, and you can't change the value, because the const reference
+    swap_cr(dx,dy); //The double format will be put into an int so information will be lost, and you can't change the value, because the const reference
     print(dx,dy);
     */
     /*
-    swap_v(7.7,9.9);//The double format ill be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
+    swap_v(7.7,9.9);//The double format will be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
 			//Can not bind non-const value reference
     print(dx,dy);
     */
     /*
-    swap_r(7.7,9.9);//The double format ill be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
+    swap_r(7.7,9.9);//The double format will be put into an int so information will be lost, and the values don't have a variable to be saved in this scope
 				//Can not bind non-const value reference
     print(dx,dy);
     */
     /*
-    swap_cr(7.7,9.9);//The double format ill be put into an int so information will be lost, and the values don't have a variable to be saved in this scope,
+    swap_cr(7.7,9.9);//The double format will be put into an int so information will be lost, and the values don't have a variable to be saved in this scope,
                             //and you can't change the value, because the const reference
     print(dx,dy);
     */
