@@ -118,8 +118,6 @@ try {
 		return 3;
 	}
 	
-	int length=original_points.size()-i;
-	
 	cout<<"Values of the vectors:\n"
 	for(int length=0; length<7; length++)
 		
