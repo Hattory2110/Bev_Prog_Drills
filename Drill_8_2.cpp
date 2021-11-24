@@ -38,10 +38,10 @@ int main()
     print(x,y);
     */
     const int cx = 7;
-    const int cy = 9;/*
-    swap_v(cx,cy);// You can't change the value, because the const reference
+    const int cy = 9;
+    swap_v(cx,cy);// You can change the value, because the swap don't have a reference to the const
     print(cx,cy);
-    
+    /*
     swap_r(cx,cy);// You can't change the value, because the const reference
     print(cx,cy);
     
