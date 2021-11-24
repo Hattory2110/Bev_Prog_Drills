@@ -80,21 +80,12 @@ try {
 	cout<<"Please enter 7 Point values (xx,xx): \n";
 	
 	Point q;
-	int i =0;
-	while(cin>> q)
+	
+	for(int i=0; i<7; i++)
 	{
-		
-		if (i<6)
-		{
-			original_points.push_back(Point{q.get_p1(), q.get_p2()});
-			i++;
-		} else 
-		{ 
-			original_points.push_back(Point{q.get_p1(), q.get_p2()});
-			cout<<"End of the vector \n";
-			i--;
-			break;
-		}
+		cin>> q;
+		original_points.push_back(Point{q.get_p1(), q.get_p2()});
+	
 	}
 		
 	//cout << "Please enter name of output file: ";
@@ -130,10 +121,10 @@ try {
 	int length=original_points.size()-i;
 	
 	cout<<"Values of the vectors:\n"
-	while(length<7)
+	for(int length=0; length<7; length++)
+		
 	{
-		compare(length);
-		length++;	
+		compare(length);	
 	}
 	
 	
